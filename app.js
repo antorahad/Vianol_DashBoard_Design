@@ -39,4 +39,3 @@ provider_Btn.addEventListener('click', () => {
     providerMenuToggle = false;
   }
 });
-
