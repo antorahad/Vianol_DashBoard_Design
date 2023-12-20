@@ -13,7 +13,8 @@
 <body>
   <header class="top-nav shadow-sm">
     <div class="left">
-      <div class="logo">
+      <div class="logo p-2">
+        <img src="./image/logo_default-icon.jpg" alt="image" class="logo-image">
         <a href="index.html" class="navbar-brand">Vianol</a>
       </div>
     </div>
@@ -25,38 +26,53 @@
       <div>
         <div class="nav-menu">
           <a href="#" class="text-dark nav-link"><i class="bi bi-cart"></i></a>
-          <button id="profilePannel">
-            <i class="bi bi-chevron-down"></i>
-            <span href="#" class="text-dark">
-              Admin
-            </span>
-            <img src="./image/logo_default-icon.jpg" alt="image" class="admin-image">
-          </button>
+          <div class="position-relative">
+            <button id="profilePannel">
+              <i class="bi bi-chevron-down"></i>
+              <span href="#" class="text-dark">
+                Admin
+              </span>
+              <img src="./image/logo_default-icon.jpg" alt="image" class="admin-image">
+            </button>
+            <div id="profileMenu" class="bg-white shadow-sm">
+                <div class="pMenuItem">
+                  <i class="bi bi-person-fill"></i>
+                  <a href="#" class="nav-link">Profile</a>
+                </div>
+                <div class="pMenuItem">
+                  <i class="bi bi-power"></i>
+                  <a href="#" class="nav-link">Logout</a>
+                </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </header>
   <main class="main-container">
     <aside id="sideMenu" class="shadow">
-      <div class="logo">
+      <div class="logo p-2">
+        <img src="./image/logo_default-icon.jpg" alt="image" class="logo-image">
         <a href="index.html" class="navbar-brand">Vianol</a>
       </div>
       <div class="side-links">
-          <ul>
-            <li><a href="#">Dashboard</a></li>
-            <li><a href="#">Favorites</a></li>
-          </ul>
-          <span>App Management</span>
-          <ul>
-            <li><a href="#">Dashboard</a></li>
-            <li><a href="#">Favorites</a></li>
-            <li><a href="#">Favorites</a></li>
-            <li><a href="#">Favorites</a></li>
-            <li><a href="#">Favorites</a></li>
-            <li><a href="#">Favorites</a></li>
-          </ul>
-          <span>App Management</span>
-          <li><a href="#">Favorites</a></li>
+        <ul class="slink-menu mt-3">
+          <li class="slink-menu-item bg-light p-2"><a href="#">Dashboard</a></li>
+          <li class="slink-menu-item p-2"><a href="#">Favorites</a></li>
+        </ul>
+        <ul class="slink-menu">
+          <li class="mb-1"><span class="smenu-title p-2">App Management</span></li>
+          <li class="slink-menu-item bg-light p-2"><a href="#">Providers</a></li>
+          <li class="slink-menu-item p-2"><a href="#">Favorites</a></li>
+          <li class="slink-menu-item p-2"><a href="#">Favorites</a></li>
+          <li class="slink-menu-item p-2"><a href="#">Favorites</a></li>
+          <li class="slink-menu-item p-2"><a href="#">Favorites</a></li>
+          <li class="slink-menu-item p-2"><a href="#">Favorites</a></li>
+        </ul>
+        <ul class="slink-menu">
+          <li class="mb-1"><span class="smenu-title p-2">Settings</span></li>
+          <li class="slink-menu-item p-2"><a href="#">Media Library</a></li>
+        </ul>
       </div>
     </aside>
     <div class="content-container"></div>
