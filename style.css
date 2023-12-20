@@ -284,7 +284,7 @@ img.admin-image {
 
 .supplier-form{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
 }
 
@@ -304,6 +304,7 @@ img.admin-image {
 .first-row{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     gap: 10px;
 }
 
