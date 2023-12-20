@@ -295,6 +295,31 @@ img.admin-image {
     gap: 10px;
 }
 
+.editor-header{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.first-row{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.font-number{
+    width: 25%;
+}
+.font-style{
+    width: 30%;
+}
+
+.second-row{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 .right-form{
     width: 40%;
     display: flex;
