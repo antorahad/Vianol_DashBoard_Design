@@ -176,3 +176,28 @@ img.admin-image {
 .slink-menu-item{
     width: 100%;
 }
+
+#providerContainer{
+    display: none;
+    flex-direction: column;
+}
+
+#providerContainer.show{
+    display: flex;
+}
+
+.provider-container{
+    list-style: none;
+    padding: 0;
+}
+
+.content-container{
+    padding-top: 100px;
+    z-index: -2;
+}
+
+.container-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
